@@ -1,0 +1,19 @@
+{
+  "name": "bomb-service",
+  "version": "0.1.0",
+  "description": "BLE (Bluetooth Low Energy) Bomb Service",
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "os": [
+    "linux"
+  ],
+  "author": {
+    "name": "Jackal",
+    "url" : "https://github.com/jackalchen737"
+  },
+  "dependencies": {
+    "bleno": ">0.1.4"
+  }
+}
