@@ -60,7 +60,6 @@ BombCtrlCharacteristic.prototype.onWriteRequest = function(data, offset, without
   } else if (data.length !== 1) {
     callback(this.RESULT_INVALID_ATTRIBUTE_LENGTH);
   } else {
-    console.log("get data:" + data.length);
     var ctrl = data.readUInt8(0);
     if (ctrl == 0x01){
         console.log("0x01 get: left");
