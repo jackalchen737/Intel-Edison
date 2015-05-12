@@ -22,6 +22,8 @@ util.inherits(BombCtrlCharacteristic, Characteristic);
 
 
 BombCtrlCharacteristic.prototype.onWriteRequest = function(data, offset, withoutResponse, callback) {
+ 
+  console.log('WriteOnlyCharacteristic write request: ' + data.toString('hex') + ' ' + offset + ' ' + withoutResponse);
   if (offset) {
     callback(this.RESULT_ATTR_NOT_LONG);
   } else if (data.length !== 1) {
@@ -31,7 +33,7 @@ BombCtrlCharacteristic.prototype.onWriteRequest = function(data, offset, without
     if (ctrl == 0x00){
         console.log("0x00 get: none");
     }
-    else if (ctrl = 0x01){
+    else if (ctrl == 0x01){
         console.log("0x01 get: left");
     }
     else if (ctrl == 0x02){

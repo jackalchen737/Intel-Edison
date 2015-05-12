@@ -1,0 +1,19 @@
+{
+  "name": "bomb-control",
+  "version": "0.1.0",
+  "description": "control usb bomb device",
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "os": [
+    "linux"
+  ],
+  "author": {
+    "name": "Jackal",
+    "url" : "https://github.com/jackalchen737"
+  },
+  "dependencies": {
+    "usb": ">0.0.0"
+  }
+}
