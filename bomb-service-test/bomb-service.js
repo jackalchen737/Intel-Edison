@@ -5,7 +5,7 @@ var util = require('util'),
 
 function BombService() {
   BombService.super_.call(this, {
-      uuid: 'FFF1',
+      uuid: 'AAAF',
       characteristics: [
           new BombCtrlCharacteristic()
       ]

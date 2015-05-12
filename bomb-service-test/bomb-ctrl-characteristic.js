@@ -7,7 +7,7 @@ var util = require('util'),
 
 var BombCtrlCharacteristic = function() {
   BombCtrlCharacteristic.super_.call(this, {
-      uuid: 'FFF2',
+      uuid: 'AAA1',
       properties: ['write'],
       descriptors: [
         new Descriptor({
