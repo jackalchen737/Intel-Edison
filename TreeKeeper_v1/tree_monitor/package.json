@@ -1,0 +1,12 @@
+{
+  "name": "tree_monitor",
+  "version": "0.1.0",
+  "description": "Using BLE to connect CC2541 BLE sensor moudle",
+  "main": "index.js",
+  "author": "Jackal Chen <jackalchen737@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "noble-device": "~0.1.0",
+    "sleep": "> 0.1.0"
+  }
+}
